@@ -1,0 +1,35 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+    background-color: #000000;
+    font-family: "Montserrat", sans-serif;
+}
+.site-header{
+    background-color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-menu li a{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
