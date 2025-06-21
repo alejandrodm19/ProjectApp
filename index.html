@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarWars</title>
+    <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Star Wars</h1>
+    <header class="logo-container">
+        <img src="src/img/sw_logo_stacked_2x-52b4f6d33087_7ef430af.webp" alt="Star Wars Logo" class="logo">
     </header>
+    
     <nav class="navbar">
         <a href="#">News + Feautures</a>
         <a href="#">Video</a>
@@ -21,54 +23,65 @@
     </nav>
 
     <main>
-        <section>
-            <h2>Latest News + Features</h2>
+        <section class="container">
+            <h1 class="title">Latest News + Features</h1>
 
-            <div>
-                <img src="src/img/starwarsepisodeiii-rerelease-posterart.webp" alt="Episode III Poster">
-                <p>Celebrete the 20th Aniversary of the Ep 3</p>
+            <div class="news-container">
+                <div class="hover-item">
+                    <img src="src/img/starwarsepisodeiii-rerelease-posterart.webp" alt="Episode III Poster">
+                    <a>Celebrete the 20th Aniversary of the Ep 3</a>
+                </div>
+                <div class="hover-item">
+                    <img src="src/img/andor.webp" alt="Andor Poster">
+                    <a>Text for Andor</a>
+                </div>
+                <div class="hover-item">
+                    <img src="src/img/celebration.webp" alt="Celebration Poster">
+                    <a>Text for the Celebration</a>
+                </div>
             </div>
-            <div>
-                <img src="src/img/andor.webp" alt="Andor Poster">
-                <p>Text for Andor</p>
-            </div>
-            <div>
-                <img src="src/img/celebration.webp" alt="Celebration Poster">
-                <p>Text for the Celebration</p>
-            </div>
-            
         </section>
     </main>
 
-    <section>
-        <h2>Explore More</h2>
+    <section class="container">
+        <h2 class="title">Explore More</h2>
 
-        <div>
-            <img src="src/img/franchise-slider-disneyplus-2025-andors2_352e3f9f.webp" alt="Disney+ Slide">
-            <p>Star Wars on Disney+</p>
+        <div class="explore-container">
+            <div class="hover-item">
+                <img src="src/img/franchise-slider-disneyplus-2025-andors2_352e3f9f.webp" alt="Disney+ Slide">
+                <a>Star Wars on Disney+</a>
+            </div>
+            <div class="hover-item">
+                <img src="src/img/eras-169_c9428175.webp" alt="Eras Poster">
+                <a>Star Wars Eras</a>
+            </div>
+            <div class="hover-item">
+                <img src="src/img/celebration.webp" alt="Celebration Poster">
+                <a>Text for the Celebration</a>
+            </div>
         </div>
-        <div>
-            <img src="src/img/eras-169_c9428175.webp" alt="Eras Poster">
-            <p>Star Wars Eras</p>
-        </div>
-        <div>
-            <img src="src/img/celebration.webp" alt="Celebration Poster">
-            <p>Text for the Celebration</p>
-        </div>
-
     </section>
 
-    <footer>
-        <div>
-            <img src="src/img/youtube-logo.webp" alt="Youtube Logo">
-        </div>
-        <div>
-            <img src="src/img/facebook-logo.webp" alt="facebook-logo">
-        </div>
-        <p>TM & © Lucasfilm Ltd. All Rights Reserved</p>
-    </footer>
-    
-    
+    <footer class="footer">
 
+        <div class="footer-socials">
+            <div class="footer-icons">
+                <div>
+                    <img src="src/img/youtube-logo.webp" alt="Youtube Logo">
+                    <img src="src/img/facebook-logo.webp" alt="facebook-logo">
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/tiktok-logo-white_dd1a4867.svg?region=0%2C0%2C150%2C150" alt="Tiktok Logo">
+                </div>
+            </div>
+            <p>TM & © Lucasfilm Ltd. All Rights Reserved</p>
+            <div class="footer-links">
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Your California Privacy Rights</a>
+                <a href="#">Children's Online Privacy Policy</a>
+                <a href="#">Do Not Sell or Share My Personal Information</a>
+                <a href="#">Interest-Based Ads</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html> 
