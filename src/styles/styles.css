@@ -16,6 +16,14 @@ h1, h2{
     color: #FFFFFF
 }
 
+.first-title{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
 .title{
     border-bottom-style: solid;
     border-color: #48494A;
