@@ -3,13 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StarWars</title>
+    <title>Star Wars Movies</title>
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="icon" href="src/img/icon-starwars.webp">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="logo-container">
@@ -26,47 +23,32 @@
         <a href="#">Disney+</a>
     </nav>
 
-    <main>
-        <h1 class="first-title"><a href="">Star Wars on Disney+</a></h1>
-        <section class="container">
-            <h2 class="title">Latest News + Features</h2>
 
-            <div class="news-container">
-                <div class="hover-item">
-                    <img src="src/img/starwarsepisodeiii-rerelease-posterart.webp" alt="Episode III Poster">
-                    <a>Celebrete the 20th Aniversary of the Ep 3</a>
-                </div>
-                <div class="hover-item">
-                    <img src="src/img/andor.webp" alt="Andor Poster">
-                    <a>Text for Andor</a>
-                </div>
-                <div class="hover-item">
-                    <img src="src/img/celebration.webp" alt="Celebration Poster">
-                    <a>Text for the Celebration</a>
-                </div>
+    <main class="films-main">
+        <div class="parent-films">
+            <div class="movie-card">
+                <img src="src/img/ep9-poster.webp" alt="Ep 9 Poster">
+                <p>Star Wars: The Rise of Skywalker (Episode IX)</p>
             </div>
-        </section>
-    </main>
+            <div class="movie-card">
+                <img src="src/img/solo-poster.webp" alt="Solo Poster">
+                <p>Solo: A Star Wars Story</p>
+            </div>
+            <div class="movie-card">
+                <img src="src/img/lastjedi-poster.webp" alt="Last Jedi Poster">
+                <p>Star Wars: The Last Jedi (Episode VIII)</p>
 
-    <section class="container">
-        <h2 class="title">Explore More</h2>
-
-        <div class="explore-container">
-            <div class="hover-item">
-                <img src="src/img/franchise-slider-disneyplus-2025-andors2_352e3f9f.webp" alt="Disney+ Slide">
-                <a>Star Wars on Disney+</a>
             </div>
-            <div class="hover-item">
-                <img src="src/img/eras-169_c9428175.webp" alt="Eras Poster">
-                <a>Star Wars Eras</a>
+            <div class="movie-card">
+                <img src="src/img/rogueone-poster.webp" alt="Rogue One Poster">
+                <p>Rogue One: A Star Wars Story</p>
             </div>
-            <div class="hover-item">
-                <img src="src/img/celebration.webp" alt="Celebration Poster">
-                <a>Text for the Celebration</a>
+            <div class="movie-card">
+                <img src="src/img/ep7-poster.webp" alt="Ep 7 Poster">
+                <p>Star Wars: The Force Awakens (Episode VII)</p>
             </div>
         </div>
-    </section>
-
+    </main>
     <footer class="footer">
 
         <div class="footer-socials">
@@ -89,4 +71,4 @@
         </div>
     </footer>
 </body>
-</html> 
+</html>

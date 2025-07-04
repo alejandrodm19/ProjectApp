@@ -9,7 +9,7 @@ html {
 
 body{
     background-color: #000000;
-    font-family: sans-serif;
+    font-family: "Geologica", sans-serif;
 }
 
 h1, h2{
@@ -22,6 +22,11 @@ h1, h2{
     margin-top: 10px;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+.first-title a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .title{
@@ -196,4 +201,62 @@ h1, h2{
     color: #eee5e5;
     transform: scale(1.03);
     cursor: pointer;
+}
+
+/* Films Page */
+
+
+.films-main{
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}    
+
+.parent-films{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+.parent-films div{
+    background-color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.parent-films img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.parent-films div:hover{
+    transform: scale(1.05);
+}
+
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.movie-card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.movie-card p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
 }
